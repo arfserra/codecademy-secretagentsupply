@@ -4,7 +4,7 @@ html {
 
 /* General Styles */
 body {
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	color: white;
 }
 
@@ -12,7 +12,6 @@ body {
 
 header {
 	background-color: black;
-
 	text-transform: uppercase;
 }
 
@@ -28,4 +27,56 @@ header img {
 	margin-left: 0.5rem;
 	margin-right: 1rem;
 	height: 1.5rem;
+}
+
+/* Hero */
+
+#hero {
+	height: 25rem;
+	background-image: url("../images/moto.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero div {
+	width: 25rem;
+	position: absolute;
+	left: 16rem;
+	top: 9rem;
+	background-color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#hero div p {
+	margin-top: 2rem;
+	margin-bottom: 0.25rem;
+	margin-left: 3rem;
+}
+
+#hero div h1 {
+	font-size: 2rem;
+	margin-left: 3rem;
+	margin-bottom: 2rem;
+}
+
+/* Nav */
+
+#nav {
+	background-color: firebrick;
+}
+
+nav {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
 }
