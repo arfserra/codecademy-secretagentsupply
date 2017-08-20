@@ -82,6 +82,13 @@ nav li {
 	margin-bottom: 0.75rem;
 }
 
+#nav p {
+	display: none;
+	text-align: center;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+}
+
 /* Product grid */
 
 #products {
@@ -148,4 +155,57 @@ footer {
 
 footer p {
 	margin-left: 16rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+/* Header */
+
+header div {
+	width: 100%;
+}
+
+/* Hero */
+
+ #hero div {
+ 	left: 0;
+ 	top: 13rem;
+}
+
+/* Nav */
+nav ul {
+	display: none;
+}
+
+#nav p {
+	display: block;
+}
+
+/* Product Grid */
+
+#products {
+	width: 100%;
+}
+
+.product:last-of-type {
+	display: none;
+}
+.product {
+	width: 47%;
+}
+
+/* Contact */
+
+#contact {
+	width: 100%;
+}
+
+
+/* Footer */
+
+footer p {
+	margin-left: 0;
+}
+
 }
